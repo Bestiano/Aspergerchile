@@ -2,8 +2,12 @@ body {
   margin: 0;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .header{
-  position: sticky;
+  position:sticky;
   top: 0;
   z-index: 100200;
   min-height: 4rem;
@@ -13,15 +17,23 @@ body {
 .header a{
   color: white;
 }
-.isotipo{
+
+.logo{
   padding: 15px;
 }
+
+.logoblog{
+  min-width: 250px;
+  padding: 15px;
+}
+
 .mainslider{
   background-image: url(../img/niño.jpg);
   background-size: cover;
   height: 450px;
 }
-.mainslider h1, p{
+
+.white{
   color: white;
 }
 
@@ -31,48 +43,62 @@ body {
 
 
 .align-nav li{
-  margin: 18px 10px;
+  margin: 30px 10px;;
   float:left;
   display:inline-block;
   list-style: none;
   color: #fffede;
 }
 
-.carousel-inner img{
-  width: 100%;
-}
-
 .mision {
   background-color: #005E7C;
   color: white;
+  margin-bottom: 50px;
 }
 
 .jumbotron{
   background-color: transparent;
 }
 
-.blog-bg{
-  background-color: #005E7C;
-  clear: both;
+.box{
+  box-sizing: border-box;
 }
-.blog ,h3{
-  color: gold;
+
+.blog{
+  display: block;
+}
+.blog h3{
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+  color: #1CA2BB;
 }
 
 .blog p{
-  text-align: justify;
-}
-.blogbd{
-  margin: 5px;
-  padding: 25px 5px;
+  color: #005E7C;
 }
 
-.blogbox{
-  box-sizing: border-box;
+.blog-air{
+  padding: 25px;
+}
+
+.blogline{
+  border-style: solid;
+  border-width: 0 1px;
+  border-color: #515151;
+}
+
+.btn-air{
+  margin-top: 50px;
+}
+
+.btn-white a{
+  color:white;
 }
 
 .nav-footer li{
   display: inline-block;
+  margin: 20px 15px;
 }
 
 .footer{
@@ -82,4 +108,12 @@ body {
 .footer p{
   color: #005E7C;
   margin-left: 30px;
+}
+.post{
+   padding-top: 25px;
+   margin: 10px;
+}
+
+.post-air{
+  margin-bottom: 15px;
 }

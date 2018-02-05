@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 100200;
+  min-height: 4rem;
+  background-color:#1CA2BB;
+}
+
+.header a{
+  color: white;
+}
+.isotipo{
+  padding: 15px;
+}
+.mainslider{
+  background-image: url(../img/niño.jpg);
+  background-size: cover;
+  height: 450px;
+}
+.mainslider h1, p{
+  color: white;
+}
+
+.air-slider{
+  padding: 100px 30px;
+}
+
+
+.align-nav li{
+  margin: 18px 10px;
+  float:left;
+  display:inline-block;
+  list-style: none;
+  color: #fffede;
+}
+
+.carousel-inner img{
+  width: 100%;
+}
+
+.mision {
+  background-color: #005E7C;
+  color: white;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+.blog-bg{
+  background-color: #005E7C;
+  clear: both;
+}
+.blog ,h3{
+  color: gold;
+}
+
+.blog p{
+  text-align: justify;
+}
+.blogbd{
+  margin: 5px;
+  padding: 25px 5px;
+}
+
+.blogbox{
+  box-sizing: border-box;
+}
+
+.nav-footer li{
+  display: inline-block;
+}
+
+.footer{
+  padding: 30px 15px;
+}
+
+.footer p{
+  color: #005E7C;
+  margin-left: 30px;
+}
